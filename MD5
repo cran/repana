@@ -1,13 +1,13 @@
-e9e3dc496a90f56663e25e0aa80ff90e *DESCRIPTION
-f33e4181f945b91287be99a88387d6c9 *NAMESPACE
-f951e575e65149f98ae812a390f6a14f *NEWS.md
+82bf1de449fc34e49292cf16070efdb6 *DESCRIPTION
+b476ce247d3586118437c9779d431865 *NAMESPACE
+a91f01ffe733afa2cd6ed46c67ca18ce *NEWS.md
 f3e54e671194eb5b79276efe5133b2ea *R/addDataTable.R
 1af030d3629f21369ee60ea8b599da07 *R/get_con.R
 817cedfce8c18545616ec059fe68131e *R/get_dirs.R
 a918f799b7e5229b02cd8e25efd70cd4 *R/helper_database.R
 604af6cc30e86963b4b00368c2f8e944 *R/master.R
 6ed079eb90fc0a134d7d878d58292f7e *R/master_spin.R
-b524a9cd3e9073f2ef43896353fbe145 *R/render_report.R
+d4a94d5922b7748d9b08cfcaff578465 *R/render_report.R
 21618a1228365fa1a51846d4892a88c5 *R/repana.R
 973123f8715a57d5969eaa465d4e3d05 *R/structure.R
 0e4d7602a5bdeaada8a3d1c7aad62800 *R/template.R
@@ -16,7 +16,7 @@ d6ecd5abab3918c4f0d966fa1fa8e485 *build/vignette.rds
 c0a62f0f38040834164a880900502a4c *inst/WORDLIST
 46750e778a5cdb4d65c347f8e43df623 *inst/doc/using_repana.R
 d27562a3d492b79a80a07e8985413159 *inst/doc/using_repana.Rmd
-f501747043930b1b679fa8890c6ab8f0 *inst/doc/using_repana.html
+ad1cd9b26542000e989a8be20d3fbc69 *inst/doc/using_repana.html
 a84a96f57cf2160ca06c3c059ae4ba3d *inst/rstudio/addins.dcf
 569b84277ca4a616fa4665d1085ea85b *inst/templates/template_spin.txt
 dafe8304dc5385f46380bebfccffd7ca *man/addDataTable.Rd
@@ -46,8 +46,8 @@ a615be9c29af964b6e0964cdd8941047 *tests/testthat/test_get_con.R
 e8072d1379b547dbdd5a9b06aa13c3e5 *tests/testthat/test_get_pool.R
 dcc00e30c5263010d10059b8c7586fce *tests/testthat/test_helper_database.R
 f5013f249d86ca0dd5a0bae60a0e9624 *tests/testthat/test_master.R
-ca2c52e7664a61a912bdf6d88a1450e6 *tests/testthat/test_master_spin.R
-9a75453e00e1c6c5f9eba1d6873c60d7 *tests/testthat/test_render_report.R
+4f71e4ccb86fda42dc241fd0f6ecf4d5 *tests/testthat/test_master_spin.R
+91af978ac039ab82648ec3e7880c2e09 *tests/testthat/test_render_report.R
 d0219a1307a9937a0e437900e8eba305 *tests/testthat/test_report.Rmd
 0425e53146f03aa80969ed2c1b32b1e0 *tests/testthat/test_structure.R
 6e687b458464965d42d32638c5bda09e *tests/testthat/with_libraries.R
