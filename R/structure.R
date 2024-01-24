@@ -55,12 +55,20 @@ make_structure <- function() {
       "   - reports\n",
       "   - logs\n",
       " defaultdb:\n",
-      "   package: RSQLite\n",
-      "   dbconnect: SQLite\n",
-      '   dbname: ":memory:"\n',
+      "   package: duckdb\n",
+      "   dbconnect: duckdb\n",
+      '   read_only: FALSE\n',
+      " template:\n",
+      "   _template.txt\n",
       file = "config.yml"
     )
 
+  }
+
+
+  if (!file.exists("_template_spin.R")) {
+    fpath <- system.file("templates", "template_spin.txt", package="repana")
+    file.copy(fpath,"_template.txt")
   }
 
   # Process the .gitignore file
@@ -76,30 +84,33 @@ make_structure <- function() {
   lapply(in_gitignore, function(x) {
     tdir <- trimws(config::get("dirs")[[x]], "both")
     if (length(tdir) == 0) {
-      stop(x,
+      warning(x,
            " not defined in dirs. check the config.yml file\n")
     }
     if (!any(grepl(paste0("^", tdir, "$"), xx))) {
       cat(tdir, "\n", file = ".gitignore", append = T)
     }
   })
+  if (!any(grepl(paste0("^\\*\\.Rproj$"), xx))){
+      cat("*.Rproj", "\n", file = ".gitignore", append = T)
+  }
 
 
-  # Make the 01_clean.R file
-  if (!file.exists("01_clean.R")) {
-    cat("#' ---\n", file= "01_clean.R")
-    cat("#' title: Clean directories\n", file= "01_clean.R", append  = T)
-    cat("#' author: Created by repana::makestructure()\n", file= "01_clean.R", append  = T)
-    cat("#' date: ", format(Sys.Date()),"\n", file= "01_clean.R", append  = T)
-    cat("#' ---\n", file= "01_clean.R", append  = T)
-    cat("#' \n", file= "01_clean.R", append  = T)
-    cat("#' Clean the directories included in the\n", file= "01_clean.R", append  = T)
-    cat("#' __clean_before_new_analysis__ section of config.yml\n", file= "01_clean.R", append  = T)
-    cat("#' \n", file= "01_clean.R", append  = T)
-    cat("#' Execution date:\n", file= "01_clean.R", append  = T)
-    cat("{{ format(Sys.time()) }}\n", file= "01_clean.R", append  = T)
-    cat("#' \n", file= "01_clean.R", append  = T)
-    cat("repana::clean_structure()\n", file= "01_clean.R", append  = T)
+
+  # Make the 00_clean.R file
+  if (!file.exists("00_clean.R")) {
+    cat("#' ---\n", file= "00_clean.R")
+    cat("#' title: Clean Project Directories\n", file= "00_clean.R", append  = T)
+    cat("#' author: Created by repana::makestructure()\n", file= "00_clean.R", append  = T)
+    cat("#' date: ", format(Sys.Date()),"\n", file= "00_clean.R", append  = T)
+    cat("#' sessioninfo: YES\n", file = "00_clean.R", append = T )
+    cat("#' signature: YES\n", file = "00_clean.R", append = T )
+    cat("#' ---\n", file= "00_clean.R", append  = T)
+    cat("#' \n", file= "00_clean.R", append  = T)
+    cat("#' Clean the directories included in the\n", file= "00_clean.R", append  = T)
+    cat("#' __clean_before_new_analysis__ section of config.yml\n", file= "00_clean.R", append  = T)
+    cat("#' \n", file= "00_clean.R", append  = T)
+    cat("repana::clean_structure()\n", file= "00_clean.R", append  = T)
   }
 
   # Make the directories
