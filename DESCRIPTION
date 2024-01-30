@@ -1,7 +1,7 @@
 Package: repana
 Type: Package
 Title: Repeatable Analysis in R
-Version: 2.0.0
+Version: 2.1.0
 Authors@R: person(
             given = "John J.",
             family = "Aponte",
@@ -25,8 +25,8 @@ Imports: config, dplyr, magrittr, lubridate, rmarkdown, processx,
 Language: en-US
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2024-01-24 15:46:15 UTC; master
+Packaged: 2024-01-30 09:30:10 UTC; master
 Author: John J. Aponte [aut, cre] (<https://orcid.org/0000-0002-3014-3673>)
 Maintainer: John J. Aponte <john.j.aponte@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-01-24 16:00:02 UTC
+Date/Publication: 2024-01-30 14:00:02 UTC

@@ -1,6 +1,6 @@
-31f6f34be8b86513195d997bf73fc392 *DESCRIPTION
+995cf4920502de82026568c5f5d61ecb *DESCRIPTION
 d70ceb0e7a5b8e2f383ba79c9cfffed4 *NAMESPACE
-8357d8e108c71fc0bb2486670ee9933b *NEWS.md
+71e7683403a4da94aa040d9e1c44c653 *NEWS.md
 f3e54e671194eb5b79276efe5133b2ea *R/addDataTable.R
 1af030d3629f21369ee60ea8b599da07 *R/get_con.R
 817cedfce8c18545616ec059fe68131e *R/get_dirs.R
@@ -17,9 +17,9 @@ e656f0d0284ef30e4c08b1b1fb37f23c *build/vignette.rds
 5e270ae6034b339c2a13d20a5f7d2dec *inst/doc/database.R
 5693b26f8915cd329a7db9f85a8e8034 *inst/doc/database.Rmd
 acea40e30c5cef1f2207116dfaeaf2f1 *inst/doc/database.html
-da8bea7c37811a13912a7c3c7abc3d04 *inst/doc/reports.R
-91777e176328ef5465b6bf9d5f82ddfc *inst/doc/reports.Rmd
-3c46e65d57a91d8fea3527de2bc6d1a3 *inst/doc/reports.html
+5e270ae6034b339c2a13d20a5f7d2dec *inst/doc/reports.R
+c4ee344bccd3696c07d29d7cb9d49123 *inst/doc/reports.Rmd
+9e803d285212dbac4ec3b0d33b15071c *inst/doc/reports.html
 5e270ae6034b339c2a13d20a5f7d2dec *inst/doc/structure.R
 a07dee3980a9551d3494149f818a0f4a *inst/doc/structure.Rmd
 76cc738c83da4283add232279c48b1db *inst/doc/structure.html
@@ -61,6 +61,6 @@ d0219a1307a9937a0e437900e8eba305 *tests/testthat/test_report.Rmd
 66c13fbd07fe41724b3c20b14771f48f *tests/testthat/test_structure.R
 6e687b458464965d42d32638c5bda09e *tests/testthat/with_libraries.R
 5693b26f8915cd329a7db9f85a8e8034 *vignettes/database.Rmd
-91777e176328ef5465b6bf9d5f82ddfc *vignettes/reports.Rmd
+c4ee344bccd3696c07d29d7cb9d49123 *vignettes/reports.Rmd
 a07dee3980a9551d3494149f818a0f4a *vignettes/structure.Rmd
 b32fc4bb8c179449df6d7105891afe34 *vignettes/template.Rmd
