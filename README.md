@@ -1,4 +1,6 @@
+
 # Introduction to repana (Reproducible Analysis in R)
+<a href="https://johnaponte.github.io/repana/"><img src="man/figures/logo.png" align="right" height="139" alt="repana website" /></a>
 
 Reproducible research is a crucial aspect of the scientific process, especially in data science. It ensures that the same inputs, including data, libraries, and user programs, consistently produce the same results or artifacts. This not only enhances the credibility of research but also streamlines collaboration and makes it easier to verify and build upon previous work. There are several options in R to achieve reproducible research and repana facilitates the pursuit of reproducible research.
 
@@ -46,3 +48,4 @@ For more information see:
 - [Database configuration](https://johnaponte.github.io/repana/articles/database.html)
 - [Modifying the template](https://johnaponte.github.io/repana/articles/template.html)
 - [Creating reports](https://johnaponte.github.io/repana/articles/reports.html)
+- [Integration with targets](https://johnaponte.github.io/repana/articles/targets.html)

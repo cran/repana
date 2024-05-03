@@ -1,6 +1,6 @@
-995cf4920502de82026568c5f5d61ecb *DESCRIPTION
-d70ceb0e7a5b8e2f383ba79c9cfffed4 *NAMESPACE
-71e7683403a4da94aa040d9e1c44c653 *NEWS.md
+1545f8967039faade225a570cca0daee *DESCRIPTION
+dfd1bb9cc553f326922ae330db92c697 *NAMESPACE
+3c6c8795262013a11f750876a6fa0414 *NEWS.md
 f3e54e671194eb5b79276efe5133b2ea *R/addDataTable.R
 1af030d3629f21369ee60ea8b599da07 *R/get_con.R
 817cedfce8c18545616ec059fe68131e *R/get_dirs.R
@@ -9,11 +9,12 @@ a918f799b7e5229b02cd8e25efd70cd4 *R/helper_database.R
 209933c6bf0038e4dbbdfa38f584a800 *R/master_txt.R
 5b2f10f5edb379529766f7b008eed403 *R/render_report.R
 5e9025ac7a726e4149e3a8c2569e7bc8 *R/repana-package.R
+79f24735edd1e62ead0a4c71c7bd82e6 *R/repana_targets.R
 7f713bef1046291e368eebd3362fd6e0 *R/structure.R
 ea17bdbecb390f0590ce8669c5a2b7ac *R/template.R
-0b5ce20504d5f6254b84181ddbd27629 *README.md
-e656f0d0284ef30e4c08b1b1fb37f23c *build/vignette.rds
-48ca8894c58a8557aefd9c7cd773f154 *inst/WORDLIST
+53f135827fd5c12518138b3a424dab49 *README.md
+04f5f802fe8b3a6cd0504bb3825d7685 *build/vignette.rds
+ab90fcade9772612c62c7888b33af33f *inst/WORDLIST
 5e270ae6034b339c2a13d20a5f7d2dec *inst/doc/database.R
 5693b26f8915cd329a7db9f85a8e8034 *inst/doc/database.Rmd
 acea40e30c5cef1f2207116dfaeaf2f1 *inst/doc/database.html
@@ -23,6 +24,9 @@ c4ee344bccd3696c07d29d7cb9d49123 *inst/doc/reports.Rmd
 5e270ae6034b339c2a13d20a5f7d2dec *inst/doc/structure.R
 a07dee3980a9551d3494149f818a0f4a *inst/doc/structure.Rmd
 76cc738c83da4283add232279c48b1db *inst/doc/structure.html
+9675fd5f9fbff545d72a472957f96410 *inst/doc/targets.R
+9514f86bb64eda2ece98ffac9cb8ffcf *inst/doc/targets.Rmd
+5cff3941249fc839f1c7975c4f8f951f *inst/doc/targets.html
 5e270ae6034b339c2a13d20a5f7d2dec *inst/doc/template.R
 b32fc4bb8c179449df6d7105891afe34 *inst/doc/template.Rmd
 b513d3585e5270847458e2b0d9ee152f *inst/doc/template.html
@@ -31,6 +35,7 @@ b513d3585e5270847458e2b0d9ee152f *inst/doc/template.html
 dafe8304dc5385f46380bebfccffd7ca *man/addDataTable.Rd
 946c2ec0273450417d4ba24d9b2301a7 *man/clean_database.Rd
 242510a6888c453bfe302a53847a59f5 *man/clean_structure.Rd
+45cf70582a9901b200e87f1f30ba8a53 *man/figures/logo.png
 0ca59ac17202d502d08df8490281fac8 *man/get_con.Rd
 98a14cd89452964ab3bed369dc2c64b6 *man/get_dirs.Rd
 56f70fd9bd6dcd91976b04d37b8103d2 *man/get_pool.Rd
@@ -39,7 +44,8 @@ dafe8304dc5385f46380bebfccffd7ca *man/addDataTable.Rd
 c39b916cd8f8e76b6e28a1c6135fb68b *man/master.Rd
 d7c1005fadb5f3bd4ebdbe7c30fb1370 *man/master_txt.Rd
 17f459b978100c18a751ad1eba5a468a *man/render_report.Rd
-d1a4473cebc273f1c791d716de9ba0f4 *man/repana-package.Rd
+a275cf9ececc10faaefc77928237f632 *man/repana-package.Rd
+e8dadaf2b779a0a2f12957d9bcd31d5d *man/targets_structure.Rd
 c329d958a809909e56b350db457be67d *man/update_table.Rd
 c6fb8643c39264eb082953cb4f8015e5 *man/write_log.Rd
 0622a97a2aaa3c342f09636052c2d7f5 *tests/spelling.R
@@ -57,10 +63,12 @@ dcc00e30c5263010d10059b8c7586fce *tests/testthat/test_helper_database.R
 580280ca3ce954bd9e4cbab2bf057332 *tests/testthat/test_master.R
 2e6683408528ec56317efbd4303e5c2c *tests/testthat/test_master_txt.R
 bee0dece229307ef975a781c6cf5878c *tests/testthat/test_render_report.R
+e01f09610654dae10c5d7099d47dfaf8 *tests/testthat/test_repana_targets.R
 d0219a1307a9937a0e437900e8eba305 *tests/testthat/test_report.Rmd
 66c13fbd07fe41724b3c20b14771f48f *tests/testthat/test_structure.R
 6e687b458464965d42d32638c5bda09e *tests/testthat/with_libraries.R
 5693b26f8915cd329a7db9f85a8e8034 *vignettes/database.Rmd
 c4ee344bccd3696c07d29d7cb9d49123 *vignettes/reports.Rmd
 a07dee3980a9551d3494149f818a0f4a *vignettes/structure.Rmd
+9514f86bb64eda2ece98ffac9cb8ffcf *vignettes/targets.Rmd
 b32fc4bb8c179449df6d7105891afe34 *vignettes/template.Rmd

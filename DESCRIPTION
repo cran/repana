@@ -1,14 +1,13 @@
 Package: repana
 Type: Package
 Title: Repeatable Analysis in R
-Version: 2.1.0
+Version: 2.2.0
 Authors@R: person(
             given = "John J.",
             family = "Aponte",
             role = c("aut", "cre"),
             email = "john.j.aponte@gmail.com",
             comment = c(ORCID = "0000-0002-3014-3673"))
-Date: 2024-01-20
 URL: https://github.com/johnaponte/repana,
         https://johnaponte.github.io/repana/
 Description: Set of utilities to facilitate the reproduction of analysis in R.
@@ -17,16 +16,17 @@ Description: Set of utilities to facilitate the reproduction of analysis in R.
  an ordered and reproducible form.
 License: GPL (>= 3)
 Encoding: UTF-8
-RoxygenNote: 7.3.0
+RoxygenNote: 7.3.1
 Depends: DBI (>= 1.0)
-Suggests: spelling, testthat, knitr, RSQLite, RPostgres, duckdb, pacman
+Suggests: spelling, testthat, knitr, RSQLite, RPostgres, duckdb,
+        pacman, targets
 Imports: config, dplyr, magrittr, lubridate, rmarkdown, processx,
         readr, rstudioapi, pool, openxlsx, tools, yaml, digest
 Language: en-US
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2024-01-30 09:30:10 UTC; master
+Packaged: 2024-05-03 15:53:20 UTC; master
 Author: John J. Aponte [aut, cre] (<https://orcid.org/0000-0002-3014-3673>)
 Maintainer: John J. Aponte <john.j.aponte@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-01-30 14:00:02 UTC
+Date/Publication: 2024-05-03 16:10:02 UTC
